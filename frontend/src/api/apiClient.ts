@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:3001';
+const BASE_URL = 'http://localhost:3000';
 
 const handleResponse = async (response: Response) => {
   if (!response.ok) {
